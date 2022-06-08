@@ -2,8 +2,11 @@
   height: 10vh;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 2rem;
-  top: 0;
+  /* margin-bottom: 2rem; */
+  /* top: 0; */
+}
+.navebar {
+  position: sticky;
 }
 .n-left {
   flex: 1;

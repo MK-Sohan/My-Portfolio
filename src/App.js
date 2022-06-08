@@ -10,6 +10,8 @@ import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import { useContext } from "react";
 import { themeContext } from "./Context";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 function App() {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
@@ -30,6 +32,7 @@ function App() {
       {/* <Testimonial /> */}
       <Contact />
       <Footer />
+      <ToastContainer />
     </div>
   );
 }

@@ -31,7 +31,7 @@ const Services = () => {
        
         </spane>
         <a href="https://drive.google.com/uc?export=download&id=1IwGcClihmfoOKBaY7RYMZi5jLtR3qtq2" download>
-          <button className="button s-button">Download CV</button>
+          <button className="button s-button1">Download Resume</button>
         </a>
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
       </div>

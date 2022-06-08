@@ -4,10 +4,11 @@ import "./Navbar.css";
 import { Link } from "react-scroll";
 const navbar = () => {
   return (
-    <div className="n-wrapper" id="Navbar">
+   <div className="navebar">
+      <div className="n-wrapper" id="Navbar">
       {/* left */}
       <div className="n-left">
-        <div className="n-name">Darkmode</div>
+        <div className="n-name">PortFolio</div>
         <Toggle />
       </div>
       {/* right */}
@@ -41,11 +42,15 @@ const navbar = () => {
             </li> */}
           </ul>
         </div>
-        <Link to="contact" spy={true} smooth={true}>
-        <button className="button n-button">Contact</button>
-        </Link>
+       
+        <a href="https://drive.google.com/uc?export=download&id=1IwGcClihmfoOKBaY7RYMZi5jLtR3qtq2" download>
+        <button className="button n-button">Download Resume</button>
+        </a>
+
+       
       </div>
     </div>
+   </div>
   );
 };
 
