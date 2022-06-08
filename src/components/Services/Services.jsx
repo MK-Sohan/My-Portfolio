@@ -27,11 +27,10 @@ const Services = () => {
         <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
         <span>services</span>
         <spane>
-          Lorem ispum is simpley dummy text of printing of printing Lorem
-          <br />
-          ispum is simpley dummy text of printing
+        Every website should be built with two primary goals: <br /> Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.
+       
         </spane>
-        <a href="https://drive.google.com/drive/folders/1ChktiaY3KZ93e6-SnPCL3nhk946Lf5Q2?usp=sharing" download>
+        <a href="https://drive.google.com/uc?export=download&id=1IwGcClihmfoOKBaY7RYMZi5jLtR3qtq2" download>
           <button className="button s-button">Download CV</button>
         </a>
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>

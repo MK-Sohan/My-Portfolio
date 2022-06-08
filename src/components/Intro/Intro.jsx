@@ -3,7 +3,7 @@ import "./Intro.css";
 import Vector1 from "../../img/Vector1.png";
 import Vector2 from "../../img/Vector2.png";
 
-import boy from "./photo.png";
+import boy from "./e3.png";
 import glassesimoji from "../../img/glassesimoji.png";
 import thumbup from "../../img/thumbup.png";
 import crown from "../../img/crown.png";
@@ -32,7 +32,7 @@ const Intro = () => {
           <span className="myname">Md.Mahabubul Kobir</span>
           <span>
             Frontend Developer. I have a good skills in React app development 
-            and designing sector
+            and designing sector. <br /> I can provide clean code and pixel perfect design. I also make the website more and more interactive with web animations. <br /> 
           </span>
         </div>
         <Link to="contact" smooth={true} spy={true}>

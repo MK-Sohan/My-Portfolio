@@ -34,7 +34,7 @@
   margin-right: 4rem;
 }
 
-.n-list > ul li link :hover {
+.n-list > ul li :hover {
   color: orange;
   cursor: pointer;
 }

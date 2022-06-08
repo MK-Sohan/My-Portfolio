@@ -63,9 +63,8 @@
   top: -9%;
 }
 .portfolio {
-  height: 300px;
-  margin-right: 230px;
-  margin-top: -120px;
+  margin-right: 380px;
+  /* margin-top: -120px; */
 }
 .i-right > :nth-child(2) {
   top: -4.6rem;
@@ -75,6 +74,7 @@
 .i-right > :nth-child(3) {
   transform: scale(1.4);
   right: 5%;
+  height: 450px;
 }
 .i-right > :nth-child(4) {
   transform: scale(0.62);
@@ -121,7 +121,14 @@
     margin-right: -200px;
     margin-top: -30px;
   }
-  .myname {
-    width: 30px;
+  .i-right > :nth-child(3) {
+    transform: scale(1.4);
+    right: 28%;
+    margin-top: 39px;
+    height: 410px;
+  }
+  .portfolio {
+    /* margin-right: 10px; */
+    /* margin-top: -120px; */
   }
 }
